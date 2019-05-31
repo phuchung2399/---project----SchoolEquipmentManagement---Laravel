@@ -1,0 +1,38 @@
+.menu{
+  background-color: #C0C0C0;
+  margin: 5px;
+  padding: 10px;
+  overflow: hidden;
+  height: 50px;
+  font-size: 150%;
+}
+
+li {
+  float: left;
+  border-right:1px solid white;
+  height: 50px;
+a {
+  color: black;
+}
+
+li:last-child {
+  border-right: none;
+  text-align: center;
+  border-top: 100px;
+  line-height: 1.5;
+}
+
+ul li a {
+list-style-type: block;
+
+}
+
+li a:hover:not(.active) {
+  background: repeat;
+  background-color: #808080;
+  color: white ;
+}
+
+.active {
+  background-color: white;
+}
